@@ -8,4 +8,3 @@ public class Greeter {
         return "hello, world!";
     }
 }
-
