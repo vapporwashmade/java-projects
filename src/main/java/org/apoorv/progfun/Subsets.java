@@ -7,6 +7,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+AP CS Assignment: 09 November 2019
+ */
 public class Subsets {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
