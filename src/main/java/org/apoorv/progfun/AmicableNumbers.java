@@ -1,44 +1,29 @@
 package org.apoorv.progfun;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class AmicableNumbers {
     public static void main(String[] args) {
         for (int i = 0; i < divisorSums.length; i++) {
-            ArrayList<Integer> divisors = new ArrayList<>();
-            divisors.add(1);
+            int sum = 1;
             for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
-                    divisors.add(j);
+                    sum += j;
                     if (j != i/j) {
-                        divisors.add(i / j);
+                        sum += (i / j);
                     }
                 }
             }
-            int sum = 0;
-            for (int k: divisors) {
-                sum += k;
-            }
             divisorSums[i] = sum;
         }
-        System.out.println(findNumbers());
-    }
-
-    private static int[] divisorSums = new int[195000];
-
-    public static HashMap<Integer, Integer> findNumbers() {
-        HashMap<Integer, Integer> numbers = new HashMap<>();
-        for (int i = 2; i < divisorSums.length+1; i++) {
-            try {
-                if (divisorSums[divisorSums[i]] == i) {
-                    numbers.put(i, divisorSums[i]);
-                }
-            } catch (Exception e) {
-
+        for (int i = 0; i < divisorSums.length; i++) {
+            if (divisorSums[i] < divisorSums.length && divisorSums[i] >= 0 && i != divisorSums[i] && i == divisorSums[divisorSums[i]] && divisorSums[i] != -1) {
+                System.out.println(i + ", " + divisorSums[i]    );
+                divisorSums[divisorSums[i]] = -1;
             }
-         }
-        return numbers;
+        }
     }
+
+    private static int[] divisorSums = new int[1000000]; // for each i, divisorSums[i] is the sum of proper divisors of i
+
 }
