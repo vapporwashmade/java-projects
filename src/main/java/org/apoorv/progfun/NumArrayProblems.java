@@ -98,8 +98,10 @@ public class NumArrayProblems {
      */
     public static long toBase10Int(int[] a) {
         long s = 0;
+        long p = 1;
         for (int i = 0; i < a.length; i++) {
-            s += a[a.length-i-1] * Math.pow(10, i);
+            s += a[a.length-i-1] * p;
+            p *= 10;
         }
         return s;
     }
