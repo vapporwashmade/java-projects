@@ -21,7 +21,8 @@ public class Determinant {
 //        }
 //        System.out.println(Arrays.deepToString(matrix));
 //        System.out.println(determinant(matrix));
-        System.out.println(determinant(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
+//        System.out.println(determinant(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
+        System.out.println(Arrays.deepToString(exclude(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})));
     }
 
     public static double determinant(double[][] a) {
@@ -36,5 +37,13 @@ public class Determinant {
         return 1;
     }
 
-//    public static int[][] exclude(int[][] )
+    public static double[][][] exclude(double[][] a) {
+        double[][][] matrices = new double[a.length][][];
+        for (int i = 0; i < a[0].length; i++) {
+            for (int j = 1; j < a.length; j++) {
+                
+            }
+        }
+        return matrices;
+    }
 }
