@@ -1,8 +1,6 @@
 package org.apoorv.progfun;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Determinant {
     public static void main(String[] args) {
@@ -21,29 +19,53 @@ public class Determinant {
 //        }
 //        System.out.println(Arrays.deepToString(matrix));
 //        System.out.println(determinant(matrix));
-//        System.out.println(determinant(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
-        System.out.println(Arrays.deepToString(exclude(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})));
+        System.out.println(determinant(new double[][]{{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}));
     }
 
     public static double determinant(double[][] a) {
         // Base Case
-        if (a[0].length == 2) {
+        if (a.length == 2) {
             return a[0][0] * a[1][1] - a[0][1] * a[1][0];
         }
         // Recursive Case
+        double[][][] excluded = exclude(a);
+        double determinant = 0;
+        boolean positive = true;
         for (int i = 0; i < a.length; i++) {
-
+            double x = determinant(excluded[i]);
+            x = a[0][i] * x;
+            if (positive) {
+                determinant += x;
+                positive = false;
+            } else {
+                determinant -= x;
+                positive = true;
+            }
         }
-        return 1;
+        return determinant;
     }
 
     public static double[][][] exclude(double[][] a) {
         double[][][] matrices = new double[a.length][][];
-        for (int i = 0; i < a[0].length; i++) {
-            for (int j = 1; j < a.length; j++) {
-                
-            }
+        for (int i = 0; i < a.length; i++) {
+            matrices[i] = remove(a, i);
         }
         return matrices;
+    }
+
+    public static double[][] remove(double[][] a, int index) {
+        a = Arrays.copyOfRange(a, 1, a.length);
+        for (int i = 0; i < a.length; i++) {
+            double[] newA = new double[a.length];
+            int count = 0;
+            for (int j = 0; j < a.length + 1; j++) {
+                if (j != index) {
+                    newA[count] = a[i][j];
+                    count++;
+                }
+            }
+            a[i] = newA;
+        }
+        return a;
     }
 }
