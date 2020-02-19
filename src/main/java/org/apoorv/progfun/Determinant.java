@@ -30,17 +30,20 @@ public class Determinant {
         // Recursive Case
         double[][][] excluded = exclude(a);
         double determinant = 0;
-        boolean positive = true;
+//        boolean positive = true;
+        int multiplier = 1;
         for (int i = 0; i < a.length; i++) {
             double x = determinant(excluded[i]);
-            x = a[0][i] * x;
-            if (positive) {
-                determinant += x;
-                positive = false;
-            } else {
-                determinant -= x;
-                positive = true;
-            }
+            x = a[0][i] * x * multiplier;
+            determinant += x;
+            multiplier *= -1;
+//            if (positive) {
+//                determinant += x;
+//                positive = false;
+//            } else {
+//                determinant -= x;
+//                positive = true;
+//            }
         }
         return determinant;
     }
