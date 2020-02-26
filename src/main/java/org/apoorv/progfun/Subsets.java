@@ -1,6 +1,5 @@
 package org.apoorv.progfun;
 
-import com.sun.tools.jconsole.JConsoleContext;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,6 +35,7 @@ public class Subsets {
             char c = str.charAt(str.length()-1);
             curr.add(prev[i]+ c);
         }
-        return curr.toArray(String[]::new);
+//        return curr.toArray(String[]::new);
+        return null;
     }
 }
