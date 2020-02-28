@@ -19,7 +19,7 @@ public class Determinant {
 //        }
 //        System.out.println(Arrays.deepToString(matrix));
 //        System.out.println(determinant(matrix));
-        System.out.println(determinant(new double[][]{{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}));
+        System.out.println(determinant(new double[][]{{11, 13, 14, 8}, {3, 6, 13, 1}, {5, 12, 11, 3}, {13, 14, 12, 1}}));
     }
 
     public static double determinant(double[][] a) {
