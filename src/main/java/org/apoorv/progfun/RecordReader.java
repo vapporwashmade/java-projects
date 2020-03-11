@@ -20,6 +20,7 @@ public class RecordReader {
                 line = reader.readLine();
             }
             reportStudents(students, 'm');
+            getByAge(students, 15);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -39,11 +40,11 @@ public class RecordReader {
         }
     }
 
-    public static void rollCall(List<Student> students) {
-
-    }
-
-    public static void sort(List<Student> students, char method) {
-
+    public static void getByAge(List<Student> students, int age) {
+        for (Student s : students) {
+            if (s.getAge() == age) {
+                System.out.println(s.getId() + ", " + s.getName() + ", " + s.getGender());
+            }
+        }
     }
 }
