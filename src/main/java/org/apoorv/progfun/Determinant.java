@@ -2,6 +2,9 @@ package org.apoorv.progfun;
 
 import java.util.Arrays;
 
+/**
+ * This class
+ */
 public class Determinant {
     public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in).useDelimiter("\n");
@@ -19,7 +22,7 @@ public class Determinant {
 //        }
 //        System.out.println(Arrays.deepToString(matrix));
 //        System.out.println(determinant(matrix));
-        System.out.println(determinant(new double[][]{{11, 13, 14, 8}, {3, 6, 13, 1}, {5, 12, 11, 3}, {13, 14, 12, 1}}));
+        System.out.println(determinant(new double[][]{{6, 5, 1, 2}, {9, 2, 8, 6}, {7, 5, 10, 8}, {4, 6, 2, 10}}));
     }
 
     public static double determinant(double[][] a) {
@@ -28,32 +31,15 @@ public class Determinant {
             return a[0][0] * a[1][1] - a[0][1] * a[1][0];
         }
         // Recursive Case
-        double[][][] excluded = exclude(a);
         double determinant = 0;
-//        boolean positive = true;
         int multiplier = 1;
         for (int i = 0; i < a.length; i++) {
-            double x = determinant(excluded[i]);
+            double x = determinant(remove(a, i));
             x = a[0][i] * x * multiplier;
             determinant += x;
             multiplier *= -1;
-//            if (positive) {
-//                determinant += x;
-//                positive = false;
-//            } else {
-//                determinant -= x;
-//                positive = true;
-//            }
         }
         return determinant;
-    }
-
-    public static double[][][] exclude(double[][] a) {
-        double[][][] matrices = new double[a.length][][];
-        for (int i = 0; i < a.length; i++) {
-            matrices[i] = remove(a, i);
-        }
-        return matrices;
     }
 
     public static double[][] remove(double[][] a, int index) {
