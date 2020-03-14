@@ -8,12 +8,12 @@ public class SpaceTimeTradeoff {
     private static int[] cacheArray = new int[26];
 
     public static void main(String[] args) {
-        long naiveStart = System.nanoTime();
+        long start = System.nanoTime();
         int x = fibArray(25);
         System.out.println(x);
-        long naiveEnd = System.nanoTime();
-        int naiveNs = (int) ((naiveEnd - naiveStart));
-        System.out.println(naiveNs + " ns");
+        long end = System.nanoTime();
+        int time = (int) ((end - start));
+        System.out.println(time + " ns");
     }
 
     public static int fibNaive(int n) {
