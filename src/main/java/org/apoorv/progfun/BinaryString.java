@@ -1,8 +1,5 @@
 package org.apoorv.progfun;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 /**
  * Models a set of binary strings of length n.
  *
@@ -31,9 +28,10 @@ public class BinaryString {
     }
 
     public static void main(String[] args) {
-        String[] binStrings = getStrings(3);
+        String[] binStrings = getStrings(5);
         for (String s: binStrings) {
             System.out.println(s);
         }
+        System.out.println(binStrings.length);
     }
 }

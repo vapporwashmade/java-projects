@@ -35,7 +35,6 @@ public class Subsets {
             char c = str.charAt(str.length()-1);
             curr.add(prev[i]+ c);
         }
-//        return curr.toArray(String[]::new);
-        return null;
+        return curr.toArray(new String[0]);
     }
 }
