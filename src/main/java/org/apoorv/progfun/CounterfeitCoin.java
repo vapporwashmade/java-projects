@@ -3,7 +3,8 @@ package org.apoorv.progfun;
 public class CounterfeitCoin {
     public static void main(String[] args) {
         int n = (int) (Math.random() * 100);
-        System.out.println("number: " + n + ", weighings: " + simulate(n));
+        int a = 300;
+        System.out.println("number: " + a + ", weighings: " + simulate(a));
     }
 
     private static double weigh() {
