@@ -28,6 +28,7 @@ public class Student {
     public char getGender() {
         return gender;
     }
+
     @Override
     public String toString() {
         return id + ", " + name + ", " + age + ", " + gender;

@@ -9,14 +9,14 @@ public class CountingSort {
     }
 
     public static int[] sort(int start, int end, int[] a) {
-        int[] frequency = new int[end-start];
+        int[] frequency = new int[end - start];
         for (int i = 0; i < a.length; i++) {
-            frequency[a[i]-start]++;
+            frequency[a[i] - start]++;
         }
         int pos = 0;
         for (int i = 0; i < frequency.length; i++) {
             if (frequency[i] > 0) {
-                a[pos] = i+start;
+                a[pos] = i + start;
                 frequency[i]--;
                 pos++;
                 i--;

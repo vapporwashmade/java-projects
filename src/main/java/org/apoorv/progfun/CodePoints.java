@@ -9,6 +9,7 @@ public class CodePoints {
         String i = in.nextLine();
         System.out.println(getCodePoints(i));
     }
+
     static int getCodePoints(String chars) {
         int sum = 0;
         for (int i = 0; i < chars.length(); i++) {

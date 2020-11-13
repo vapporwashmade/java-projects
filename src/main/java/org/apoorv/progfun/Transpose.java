@@ -8,11 +8,12 @@ public class Transpose {
      * m rows, each containing n numbers, or, it has m rows and n columns. As an example, here is a 2x3 matrix:
      * 1 2 4
      * 3 6 9
-     *
+     * <p>
      * An mxn matrix can be represented as an int[][] in Java.
-     *
+     * <p>
      * The transpose of a given matrix M is defined as another matrix N such that rows of M become columns of N.
      * Thus, if M has m rows and n columns, N, its transpose, has n rows and m columns.
+     *
      * @param a
      * @return
      */

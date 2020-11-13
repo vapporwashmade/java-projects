@@ -2,9 +2,7 @@ package org.apoorv.progfun;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Hashtable;
-import java.util.Scanner;
+import java.util.*;
 
 public class ElementalScore {
     public static final Hashtable<String, Integer> symbols = new Hashtable<>();
@@ -28,6 +26,14 @@ public class ElementalScore {
                 }
             }
         }
+//        String[] elements = new String[]{};
+//        elements = symbols.keySet().toArray(elements);
+//        for (int i = 0; i < elements.length; i++) {
+//            ArrayList<Integer> elementScore = score(elements[i]);
+//            if (elementScore.size() > 0) {
+//                System.out.println(elements[i] + ": " + elementScore);
+//            }
+//        }
         System.out.println("English word with highest elemental score: " + highestWord + ", with score: " + highest);
     }
 

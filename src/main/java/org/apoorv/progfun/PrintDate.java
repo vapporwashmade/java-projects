@@ -1,6 +1,6 @@
 package org.apoorv.progfun;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class PrintDate {
     private static final int[] numOfDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

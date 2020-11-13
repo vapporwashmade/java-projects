@@ -8,7 +8,7 @@ public class FibonacciFun {
         long start = System.nanoTime();
         System.out.println(Arrays.deepToString(findSet(16)));
         long end = System.nanoTime();
-        System.out.println((end-start)/1000000/1000.0 + " s");
+        System.out.println((end - start) / 1000000 / 1000.0 + " s");
     }
 
     public static int[][] findSet(int size) {

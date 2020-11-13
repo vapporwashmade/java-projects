@@ -6,7 +6,7 @@ package org.apoorv.progfun;
  * @author apoorv
  */
 public class BinaryString {
-     static String[] getStrings(int n) {
+    static String[] getStrings(int n) {
         // Base Case 1
         if (n <= 0) {
             return new String[]{};
@@ -29,7 +29,7 @@ public class BinaryString {
 
     public static void main(String[] args) {
         String[] binStrings = getStrings(5);
-        for (String s: binStrings) {
+        for (String s : binStrings) {
             System.out.println(s);
         }
         System.out.println(binStrings.length);

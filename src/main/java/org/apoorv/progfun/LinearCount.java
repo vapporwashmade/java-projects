@@ -12,6 +12,7 @@ public class LinearCount {
 
     /**
      * Linear search implementation to find out how many times a number appears in a sorted array.
+     *
      * @param a A sorted array (monotonically increasing)
      * @param x The number to be found
      * @return The number of times x appears in a

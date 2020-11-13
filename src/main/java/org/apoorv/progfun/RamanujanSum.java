@@ -17,7 +17,7 @@ public class RamanujanSum {
         for (int i = 2; i < 50; i++) {
             double sum = getSum(i, 1);
             System.out.println("n = " + i + ": " + sum);
-            System.out.println("ratio to 3: " + sum/3);
+            System.out.println("ratio to 3: " + sum / 3);
         }
     }
 }

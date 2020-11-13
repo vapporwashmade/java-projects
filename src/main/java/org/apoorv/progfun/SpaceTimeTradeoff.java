@@ -13,7 +13,7 @@ public class SpaceTimeTradeoff {
         System.out.println(x);
         long end = System.nanoTime();
         int time = (int) ((end - start));
-        System.out.println(time + " ns");       
+        System.out.println(time + " ns");
     }
 
     public static int fibNaive(int n) {

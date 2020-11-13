@@ -1,9 +1,5 @@
 package org.apoorv.progfun;
 
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
-
 public class MyRational {
     public static void main(String[] args) {
         String[] x = rep10bit();
@@ -30,10 +26,10 @@ public class MyRational {
         for (int i = 0; i < 4; i++) {
             String c = Character.toString(sig.charAt(i));
             int d = Integer.parseInt(c);
-            sigsum += d*Math.pow(2, i);
+            sigsum += d * Math.pow(2, i);
             c = Character.toString(exp.charAt(i));
             d = Integer.parseInt(c);
-            expsum += d*Math.pow(2, i);
+            expsum += d * Math.pow(2, i);
         }
         if (bitStr.charAt(0) == '1') {
             str = "-";

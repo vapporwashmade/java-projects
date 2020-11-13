@@ -5,6 +5,6 @@ public class Overflow {
         int x = Integer.MAX_VALUE;
         int y = Integer.MAX_VALUE;
         System.out.println(x + y);
-        System.out.println(5*x);
+        System.out.println(5 * x);
     }
 }

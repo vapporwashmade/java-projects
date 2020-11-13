@@ -12,10 +12,10 @@ public class ReciprocalSum {
         System.out.println(z);
         System.out.println(a);
         System.out.println(b);
-        System.out.println(y-x);
-        System.out.println(z-y);
-        System.out.println(a-z);
-        System.out.println(b-a);
+        System.out.println(y - x);
+        System.out.println(z - y);
+        System.out.println(a - z);
+        System.out.println(b - a);
     }
 
     public static double getSum(int n) {

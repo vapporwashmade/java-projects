@@ -1,40 +1,52 @@
 package org.apoorv.progfun;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 /*
 AP CS Assignment: 09 November 2019
  */
 public class Subsets {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Which string do you want to find the subsets of? ");
-        String input = in.nextLine();
-        if (input == null) {
-            input = "";
-        }
-        String[] output = subsets(input);
-        for (int i = 0; i < output.length; i++) {
-            System.out.println(output[i]);
-        }
+        System.out.println(subsets(new String[]{"A", "B", "C", "D"}));
     }
 
-    private static String[] subsets(String str) {
+    public static List<String> subsets(String str) {
         // Base Case
         if (str.length() == 0) {
-            return new String[]{""};
+            List<String> e = new ArrayList<>();
+            e.add("");
+            return e;
         }
         // Recursive Case
-        String[] prev = subsets(str.substring(0, str.length()-1));
-        List<String> curr = new ArrayList<>(Arrays.asList(prev));
-        for (int i = 0; i < prev.length; i++) {
-            char c = str.charAt(str.length()-1);
-            curr.add(prev[i]+ c);
+        List<String> prev = subsets(str.substring(0, str.length() - 1));
+        List<String> curr = new ArrayList<>(prev);
+        for (String s : prev) {
+            char c = str.charAt(str.length() - 1);
+            curr.add(s + c);
         }
-        return curr.toArray(new String[0]);
+        return curr;
+    }
+
+    public static List<List<String>> subsets(String[] s) {
+        // Base Case
+        if (s.length == 0) {
+            List<List<String>> e = new ArrayList<>();
+            List<String> f = new ArrayList<>();
+            f.add("");
+            e.add(f);
+            return e;
+        }
+        // Recursive Case
+        List<List<String>> prev = subsets(Arrays.copyOfRange(s, 0, s.length - 1));
+        String p = s[s.length - 1];
+        List<List<String>> subsets = new ArrayList<>(prev);
+        for (int i = 0; i < prev.size(); i++) {
+            List<String> temp = new ArrayList<>(prev.get(i));
+            temp.add(p);
+            subsets.add(temp);
+        }
+        return subsets;
     }
 }
