@@ -51,6 +51,23 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <!-- 
+            We want to use Eric Roberts's acm Graphics classes
+            *as a binary dependency* for now. There are many ways
+            of doing that in a Maven world. We chose to do the
+            following:
+           https://stackoverflow.com/a/22300875/437506
+
+           See https://cs.stanford.edu/people/eroberts/jtf/index.html
+            for acm.jar that contains graphics classes.
+        -->  
+        <dependency>
+            <groupId>acm</groupId>
+            <artifactId>graphics</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/acm.jar</systemPath>
+</dependency>
     </dependencies>
 
     <build>
