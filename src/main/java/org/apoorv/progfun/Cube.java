@@ -60,6 +60,7 @@ public class Cube {
         String config = "BRWBWG";
         Cube cube = new Cube(config);
         System.out.println(cube.configuration);
+        cube.rotations();
     }
 
     public Color getFront() {
@@ -93,16 +94,43 @@ public class Cube {
         HashMap<Direction, Color> turn = new HashMap<>(configuration);
         HashMap<Direction, Color> rotation = new HashMap<>(configuration);
         for (int i = 1; i < 6; i++) {
+            int opp = (i+3)%6;
             for (int j = 0; j < 3; j++) {
+                Color temp2 = rotation.get(Direction.FRONT);
                 rotation.put(Direction.FRONT, rotation.get(Direction.RIGHT));
                 rotation.put(Direction.RIGHT, rotation.get(Direction.BACK));
                 rotation.put(Direction.BACK, rotation.get(Direction.LEFT));
-                rotation.put(Direction.LEFT, rotation.get(Direction.FRONT));
+                rotation.put(Direction.LEFT, temp2);
                 rotations.add(rotation);
+                System.out.println(getString(rotation));
             }
             Color temp = configuration.get(directions[i]);
-            turn.put();
+            turn.put(directions[i], configuration.get(Direction.DOWN));
+            turn.put(Direction.DOWN, configuration.get(directions[opp]));
+            turn.put(directions[opp], configuration.get(Direction.UP));
+            turn.put(Direction.UP, temp);
             rotation = turn;
+            rotations.add(rotation);
+            System.out.println(getString(rotation));
         }
+        return rotations;
+    }
+
+    public static String getString(HashMap<Direction, Color> configuration) {
+        Object[] keys = configuration.keySet().toArray();
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < 6; i++) {
+            Color color = configuration.get(keys[i]);
+            if (color == Color.RED) {
+                stringBuilder.append("R");
+            } else if (color == Color.GREEN) {
+                stringBuilder.append("G");
+            } else if (color == Color.BLUE) {
+                stringBuilder.append("B");
+            } else if (color == Color.WHITE) {
+                stringBuilder.append("W");
+            }
+        }
+        return stringBuilder.toString();
     }
 }
