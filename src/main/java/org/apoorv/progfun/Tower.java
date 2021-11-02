@@ -28,7 +28,7 @@ public class Tower {
     // checks whether the tower is sane or not
     // a tower is sane if each of the four sides of the tower has no repeating colors along that tower side's length
     // for example, one side of the tower (composed of the corresponding faces of all the cubes composing the tower) cannot have two red colors
-    public boolean isSane() {
-
-    }
+//    public boolean isSane() {
+//
+//    }
 }
