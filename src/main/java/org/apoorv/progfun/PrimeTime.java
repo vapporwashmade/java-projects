@@ -1,5 +1,7 @@
 package org.apoorv.progfun;
 
+// ADD-DOC: prime time
+// finds the nth prime number
 public class PrimeTime {
     public static boolean isPrime(int n) {
         if (n <= 3) {
@@ -22,7 +24,9 @@ public class PrimeTime {
         int count = 0;
         int i = 1;
 //        long start = System.nanoTime();
-        while (count < 2) {
+        // you want to find the nth prime (e.g. if n = 10, the program will find the 10th prime)
+        int n = 25;
+        while (count < n) {
             i++;
             if (isPrime(i)) {
                 count++;

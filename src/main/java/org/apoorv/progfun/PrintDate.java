@@ -2,6 +2,9 @@ package org.apoorv.progfun;
 
 import java.util.Scanner;
 
+// ADD-DOC: print date
+// prints the date for the nth day in a year (1 <= n < 367)
+// e.g. Jan 1st is the 1st day, Feb 4th is the 35th day, etc.
 public class PrintDate {
     private static final int[] numOfDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     private static final String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};

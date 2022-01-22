@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class NimMove {
     int coins;
     int row;

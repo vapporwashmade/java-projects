@@ -7,6 +7,8 @@ import java.util.List;
 /*
 AP CS Assignment: 09 November 2019
  */
+// ADD-DOC:
+// finds the subsets of an array of strings
 public class Subsets {
     public static void main(String[] args) {
         System.out.println(subsets(new String[]{"A", "B", "C", "D"}));

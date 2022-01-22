@@ -22,13 +22,13 @@ public class Railroad extends Frame {
     }
 
     public void paint(Graphics graphics) {
-        graphics.setColor(Color.red);
+//        graphics.setColor(Color.red);
         graphics.drawRect(310, 0, 50, 200);
         graphics.fillRect(310, 0, 50, 200);
-        graphics.setColor(Color.blue);
+//        graphics.setColor(Color.blue);
         graphics.drawRect(643, 400, 50, 200);
         graphics.fillRect(643, 400, 50, 200);
-        graphics.setColor(Color.BLACK);
+//        graphics.setColor(Color.BLACK);
         graphics.drawRect(333, 0, 5, 600);
         graphics.fillRect(333, 0, 5, 600);
         graphics.drawRect(667, 0, 5, 600);

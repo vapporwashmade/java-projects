@@ -3,6 +3,8 @@ package org.apoorv.progfun;
 import java.util.Arrays;
 import java.util.Comparator;
 
+// ADD-DOC:
+// using comparators and Arrays.sort to sort an array different ways
 public class Sorter {
     private static Comparator<Integer> c1 = new Comparator<Integer>() {
         @Override

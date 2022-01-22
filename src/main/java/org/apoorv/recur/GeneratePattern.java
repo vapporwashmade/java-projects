@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class GeneratePattern {
     public static void main(String[] args) {
         generateParagraph();

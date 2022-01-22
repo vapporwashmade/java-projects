@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// ADD-DOC: parenthesize
+// outputs all the different ways an expression of the product of some operands can be parenthesized, such that there is no ambiquity in which order to do the operations (even though it is all multiplication)
+// problem gotten from ruju and baba - ask them where they got it
 public class Parenthesize {
     public static List<String> parenthesize(List<String> operands) {
         // BASE CASE

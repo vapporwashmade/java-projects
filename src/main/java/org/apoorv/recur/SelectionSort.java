@@ -2,6 +2,7 @@ package org.apoorv.recur;
 
 import java.util.Arrays;
 
+// ADD-DOC: recur
 public class SelectionSort {
     public static void main(String[] args) {
         int[] array = new int[]{43, 3, 232, 3, 34, 19, 86, 19};

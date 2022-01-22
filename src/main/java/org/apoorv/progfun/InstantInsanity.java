@@ -2,6 +2,7 @@ package org.apoorv.progfun;
 
 import java.util.Arrays;
 
+// TODO: do this thing dude
 public class InstantInsanity {
 
     // cubes are constructed such that if 1 is at the front, 2 is at the right, 3 at top, 4 at back, 5 at left, 6 at bottom

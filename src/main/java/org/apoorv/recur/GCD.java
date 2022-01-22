@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class GCD {
     public static int gcd(int x, int y) {
         // Base cases

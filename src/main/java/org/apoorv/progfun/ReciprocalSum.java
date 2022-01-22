@@ -1,5 +1,8 @@
 package org.apoorv.progfun;
 
+// ADD-DOC:
+// finds the sum of the reciprocals of the numbers up to n
+// in the main method, tries to determine whether the increase in the sums converges
 public class ReciprocalSum {
     public static void main(String[] args) {
         double x = getSum(50);

@@ -3,10 +3,12 @@ package org.apoorv.progfun;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// ADD-DOC: fibbonaci fun
+// find all the subsets of the fibbonaci series up to a specific number ("size") in which all of the digits 0-9 appear exactly once
 public class FibonacciFun {
     public static void main(String[] args) {
         long start = System.nanoTime();
-        System.out.println(Arrays.deepToString(findSet(16)));
+        System.out.println(Arrays.deepToString(findSet(20)));
         long end = System.nanoTime();
         System.out.println((end - start) / 1000000 / 1000.0 + " s");
     }

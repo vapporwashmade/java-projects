@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class NumArrayProblems {
     public static void main(String[] args) {
-        int len = 19;
+        int len = 20;
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
             arr[i] = 1;
@@ -107,6 +107,9 @@ public class NumArrayProblems {
      * @return Long that corresponds to the given array in base 10.
      */
     public static long toBase10Int(int[] a) {
+        if (a.length > 19) {
+            throw new ArithmeticException("Result exceeds Long.MAX_VALUE");
+        }
         long s = 0;
         long p = 1;
         for (int i = 0; i < a.length; i++) {

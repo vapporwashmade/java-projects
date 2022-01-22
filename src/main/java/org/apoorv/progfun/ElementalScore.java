@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+// ADD-DOC: elemental score
+// finds the elemental score (the sum of all the atomic numbers of the letters in the word corresponding to a symbol in the periodic table)
+// some words may not have an elemental score (score of 0), or multiple scores
+// for example: Score -> ScORe or SCORe, with elemental scores of 21+8+75=104 and 16+6+8+75=105, respectively
 public class ElementalScore {
     public static final Hashtable<String, Integer> symbols = new Hashtable<>();
 

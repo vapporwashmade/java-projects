@@ -2,6 +2,7 @@ package org.apoorv.recur;
 
 import static org.apoorv.recur.Power.power;
 
+// ADD-DOC: recur
 public class Cannonball {
     public static int numOfCannonballs(int layers) {
         // Base Case

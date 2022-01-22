@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+// ADD-DOC:
+// OOP (object oriented programming) exercise where a file containing students' ages, genders, names, and IDs is read and
+// a list of students is created from it
 public class RecordReader {
     public static void main(String[] args) {
         try {

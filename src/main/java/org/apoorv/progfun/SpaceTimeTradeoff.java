@@ -3,6 +3,8 @@ package org.apoorv.progfun;
 import java.util.HashMap;
 import java.util.Objects;
 
+// ADD-DOC:
+// illustrates the space-time tradeoff through a program that finds the nth fibonacci number
 public class SpaceTimeTradeoff {
     private static HashMap<Integer, Integer> cacheMap = new HashMap<>();
     private static int[] cacheArray = new int[26];

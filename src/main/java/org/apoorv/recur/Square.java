@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class Square {
     public static int square(int n) {
         // Base Case

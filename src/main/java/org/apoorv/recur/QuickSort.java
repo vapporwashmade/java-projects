@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class QuickSort {
     public static void main(String[] args) {
         int[] a = getSameElementArray(500_000);

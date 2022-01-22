@@ -1,5 +1,8 @@
 package org.apoorv.progfun;
 
+// ADD-DOC: my rational
+// my implementation of storing rational numbers in memory
+// includes interpretation of a string of 0s and 1s
 public class MyRational {
     public static void main(String[] args) {
         String[] x = rep10bit();

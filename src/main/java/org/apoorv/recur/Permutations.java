@@ -3,6 +3,7 @@ package org.apoorv.recur;
 import java.util.ArrayList;
 import java.util.List;
 
+// ADD-DOC: recur
 public class Permutations {
     public static int p(int n, int k) {
         // Base case 1

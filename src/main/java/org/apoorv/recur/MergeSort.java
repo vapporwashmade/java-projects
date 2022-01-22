@@ -2,6 +2,7 @@ package org.apoorv.recur;
 
 import java.util.Arrays;
 
+// ADD-DOC: recur
 public class MergeSort {
     public static void main(String[] args) {
         int[] a = new int[]{87, 28, 3, 29, 193, 93, 3, 29, 1932, 29};

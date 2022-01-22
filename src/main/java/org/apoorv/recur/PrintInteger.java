@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class PrintInteger {
     public static void main(String[] args) {
         printInteger(0);

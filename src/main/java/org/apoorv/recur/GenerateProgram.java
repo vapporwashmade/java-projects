@@ -1,5 +1,6 @@
 package org.apoorv.recur;
 
+// ADD-DOC: recur
 public class GenerateProgram {
     public static void main(String[] args) {
         generateMethodName();

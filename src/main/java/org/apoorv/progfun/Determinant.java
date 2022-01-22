@@ -2,9 +2,8 @@ package org.apoorv.progfun;
 
 import java.util.Arrays;
 
-/**
- * This class
- */
+// ADD-DOC: determinant
+// directly calculates the determinant of a given square matrix
 public class Determinant {
     public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in).useDelimiter("\n");

@@ -3,7 +3,7 @@ package org.apoorv.progfun;
 /**
  * Finds the pairs of amicable numbers between 1 and 1,000,000.
  * Amicable numbers are pairs of numbers where each are the sum of the proper divisors of the other.
- * The proper divisors of a number are the numbers beside the
+ * The proper divisors of a number are the divisors excluding the number itself.
  */
 public class AmicableNumbers {
     private static int[] divisorSums = new int[1000000]; // for each i, divisorSums[i] is the sum of proper divisors of i
