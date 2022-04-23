@@ -2,10 +2,11 @@ package org.apoorv.progfun;
 
 /**
  * This class evaluates polynomials given the coefficients of all the terms and x, iteratively and recursively.
+ * The array of polynomial coefficients is given from lowest degree to highest degree
  */
 public class Poly {
     public static void main(String[] args) {
-        System.out.println(polyRec(3, new double[]{}, 0));
+        System.out.println(polyRec(3, new double[]{1, 2, 3}, 0));
     }
 
     public static double polyRec(double c, double[] a, int n) {
