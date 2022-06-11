@@ -13,9 +13,9 @@ public class RootsOfAPoly {
             return getRoot(poly, x + 0.1);
         }
         double newx = ((0 - val)/derivative) + x;
-        if (newx == prevx) {
-            throw new InternalError("Cannot find roots from given x");
-        }
+//        if (newx == prevx) {
+//            throw new InternalError("Cannot find roots from given x");
+//        }
         return getRoot(poly, newx);
     }
 
@@ -27,7 +27,7 @@ public class RootsOfAPoly {
         return deriv;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getRoot(new double[]{1, 0, 1}, -7, -7));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(getRoot(new double[]{1, 0, 1}, -7, -7));
+//    }
 }
