@@ -2,7 +2,7 @@ package org.apoorv.laaksonencp;
 
 public class Queens {
     public static void main(String[] args) {
-        int n = 8;
+        int n = 16;
         // initialize board
         board = new int[n][n];
         cols = new int[n];
