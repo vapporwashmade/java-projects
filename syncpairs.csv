@@ -1,0 +1,265 @@
+Pair,Region,Fiery,Soothing,Wistful,Rare
+Acerola,Alola,-1,3,0,0
+Acerola (Fall),Alola,0,3,-1,0
+Elio,Alola,0,0,2,0
+Gladion,Alola,-2,0,0,2
+Grimsley (Kimono),Alola,0,2,0,0
+Guzma,Alola,0,0,-2,2
+Guzma (SC),Alola,0,0,-2,2
+Hala,Alola,1,0,1,0
+Hapu,Alola,3,0,-1,0
+Hau,Alola,0,0,-2,2
+Kahili,Alola,3,0,-1,0
+Kiawe,Alola,-1,0,3,0
+Kukui,Alola,0,2,0,0
+Lana,Alola,0,-1,3,0
+Lillie,Alola,0,0,4 if 3 Alola,0
+Lillie (Anni),Alola,2,0,0,0
+Lillie (Lodge),Alola,0,2,0,0
+Lillie (NY),Alola,0,0,2,0
+Lillie (SC),Alola,0,0,2,0
+Lusamine,Alola,0,-2,0,2
+Lusamine (SS),Alola,0,-2,-2,3
+Mallow,Alola,-1,3,0,0
+Masked Royal,Alola,-2,0,-2,3
+Mina,Alola,-1,3,0,0
+Molayne,Alola,3,-1,0,0
+Nanu,Alola,0,3,-1,0
+Naomi (Sightseer),Alola,2,0,0,0
+Olivia,Alola,3,0,-1,0
+Plumeria,Alola,0,-2,0,2
+Selene,Alola,1 per Alola,0,0,0
+Sophocles,Alola,0,3,-1,0
+Spohocles (BP),Alola,3,-1,0,0
+Allister,Galar,3,-1,0,0
+Allister (Fall),Galar,0,0,2,0
+Bea,Galar,1,1,0,0
+Bea (Pal),Galar,0,0,2,0
+Bede,Galar,0,0,-2,2
+Gloria,Galar,0,0,0,2 if 3 Galar
+Gloria (Dojo),Galar,0,2,0,0
+Gloria (Summer),Galar,2,0,0,0
+Gordie,Galar,1,1,0,0
+Hop,Galar,-2,0,0,2
+Leon,Galar,3,0,-1,0
+Leon (Holiday),Galar,2,0,0,0
+Leon (SS),Galar,0,0,-2,2
+Marnie,Galar,-1,0,-1,2
+Marnie (Lodge),Galar,0,0,-2,2
+Marnie (Pal),Galar,0,2,0,0
+Marnie (Summer),Galar,-2,0,0,2
+Melony,Galar,0,1,1,0
+Nessa,Galar,0,1,1,0
+Nessa (Holiday),Galar,0,2,0,0
+Piers,Galar,1,0,1,0
+Raihan,Galar,1,0,1,0
+Raihan (Anni),Galar,0,2,0,0
+Raihan (Lodge),Galar,1,0,1,0
+Sonia,Galar,0,0,1 per Galar,0
+Sonia (SC),Galar,2,0,0,0
+Victor,Galar,2,0,0,0
+Archie,Hoenn,0,0,-2,2
+Brawly,Hoenn,1,1,0,0
+Brendan,Hoenn,2,0,0,0
+Brendan (SS),Hoenn,0,0,2,0
+Courtney,Hoenn,-1,0,-1,2
+Drake,Hoenn,0,-1,3,0
+Flannery,Hoenn,0,1,1,0
+Glacia,Hoenn,0,-1,3,0
+Lisia,Hoenn,0,2,0,0
+Liza,Hoenn,0,1,1,0
+Lucy,Hoenn,-1,0,-1,2
+Maxie,Hoenn,0,0,-2,2
+May,Hoenn,0,4 if 3 Hoenn,0,0
+May (Anni),Hoenn,0,2,0,0
+May (Lodge),Hoenn,2,0,0,0
+May (Spring),Hoenn,2,0,0,0
+May (SS),Hoenn,0,2,0,0
+Noland,Hoenn,0,0,-2,2
+Norman,Hoenn,1,0,1,0
+Phoebe,Hoenn,-1,0,3,0
+Roxanne,Hoenn,1,0,1,0
+Sidney,Hoenn,-1,3,0,0
+Steven,Hoenn,1 per Hoenn,0,0,0
+Steven (Anni),Hoenn,0,-2,0,2
+Steven (SS),Hoenn,-1,3,0,0
+Steven (Summer),Hoenn,2,0,0,0
+Tate,Hoenn,1,0,1,0
+Wallace,Hoenn,1,1,0,0
+Wally,Hoenn,0,0,-2,2
+Wally (SS),Hoenn,-2,0,0,2
+Winona,Hoenn,0,1,1,0
+Zinnia,Hoenn,2,0,0,0
+Zinnia (BP),Hoenn,0,2,0,0
+Bugsy,Johto,1,0,1,0
+Bugsy (Scyther),Johto,1,0,1,0
+Clair,Johto,1,0,1,0
+Ethan,Johto,2,0,0,0
+Ethan (SS),Johto,2,0,0,0
+Falkner,Johto,0,1,1,0
+Giovanni (SS),Johto,0,-2,-2,3
+Jasmine,Johto,0,1,1,0
+Jasmine (SC),Johto,0,0,2,0
+Karen,Johto,3,-1,0,0
+Karen (BP),Johto,3,0,-1,0
+Kris,Johto,2,0,0,0
+Kris (Eevee Day),Johto,0,2,0,0
+Kris (SS),Johto,0,0,4 if 3 Johto,0
+Lyra,Johto,0,0,2,0
+Lyra (Eevee Day),Johto,0,2,0,0
+Lyra (SS),Johto,0,2,0,0
+Lyra (Summer),Johto,2,0,0,0
+Morty,Johto,1 per Johto,0,0,0
+Morty (BP),Johto,0,1,1,0
+Morty (Fall),Johto,0,2,0,0
+Morty (SS),Johto,1,0,1,0
+Pryce,Johto,1,1,0,0
+Silver,Johto,0,-2,0,2
+Silver (Lodge),Johto,0,0,-2,2
+Whitney,Johto,1,1,0,0
+Will,Johto,0,3,-1,0
+Calem,Kalos,0,2,0,0
+Clemont,Kalos,0,1,1,0
+Clemont (BP),Kalos,1,0,1,0
+Diantha,Kalos,3,-1,0,0
+Diantha (SC),Kalos,0,2,0,0
+Evelyn,Kalos,-1,-1,0,2
+Grant,Kalos,0,1,1,0
+Helena (Hex Maniac),Kalos,0,2,0,0
+Korrina,Kalos,1,1,0,0
+Korrina (SS),Kalos,0,2,0,0
+Lysandre,Kalos,0,-2,0,2
+Nita,Kalos,-1,-1,0,2
+Ramos,Kalos,0,1,1,0
+Serena,Kalos,0,4 if 3 Kalos,0,0
+Serena (Pal),Kalos,0,2,0,0
+Serena (SS),Kalos,2,0,0,0
+Siebold,Kalos,3,0,-1,0
+Siebold (Holiday),Kalos,0,2,0,0
+Sycamore,Kalos,0,0,1 per Kalos,0
+Sycamore (Lodge),Kalos,2,0,0,0
+Valerie,Kalos,1,1,0,0
+Viola,Kalos,0,1,1,0
+Wikstrom,Kalos,-1,3,0,0
+Wulfric,Kalos,1,1,0,0
+Agatha,Kanto,0,3,-1,0
+Ash,Kanto,2,0,0,0
+Blaine,Kanto,1,1,0,0
+Blue,Kanto,3,0,-1,0
+Blue (Arcanine),Kanto,3,0,-1,0
+Blue (Classic),Kanto,4 if 3 Kanto,0,0,0
+Blue (Lodge),Kanto,0,-1,3,0
+Blue (SS),Kanto,-1,-1,0,2
+Brock,Kanto,1,1,0,0
+Brock (SS),Kanto,2,0,0,0
+Bruno,Kanto,3,-1,0,0
+Erika,Kanto,1,1,0,0
+Erika (BP),Kanto,0,1,1,0
+Erika (Holiday),Kanto,0,0,2,0
+Erika (SS),Kanto,-2,0,0,2
+Giovanni,Kanto,0,-1,-1,2
+Giovanni (Classic),Kanto,-1,-1,0,2
+James,Kanto,-2,0,0,2
+Janine,Kanto,0,1,1,0
+Janine (BP),Kanto,0,1,1,0
+Jessie,Kanto,0,-2,0,2
+Koga,Kanto,0,3,-1,0
+Lance,Kanto,3,-1,0,0
+Lance (NY),Kanto,2,0,0,0
+Leaf,Kanto,0,0,2,0
+Leaf (SS),Kanto,0,1 per Kanto,0,0
+Lorelei,Kanto,-1,3,0,0
+Lt. Surge,Kanto,1,1,0,0
+Lt.Surge (BP),Kanto,1,0,1,0
+Misty,Kanto,0,1,1,0
+Misty (SS),Kanto,-2,0,0,2
+Misty (Swimsuit),Kanto,0,1,1,0
+Oak,Kanto,0,2,0,0
+Red,Kanto,0,0,2,0
+Red (SS),Kanto,2,0,0,0
+Red (SST),Kanto,0,2,0,0
+Sabrina,Kanto,0,1,1,0
+Sabrina (NY),Kanto,0,0,2,0
+Lear,Pasio,-1,0,-1,2
+Rachel,Pasio,0,0,2,0
+Sawyer,Pasio,0,0,2,0
+Aaron,Sinnoh,-1,0,3,0
+Barry,Sinnoh,0,-2,0,2
+Bertha,Sinnoh,0,-1,3,0
+Candice,Sinnoh,1,1,0,0
+Candice (BP),Sinnoh,1,0,1,0
+Cheryl,Sinnoh,0,0,2,0
+Crasher Wake,Sinnoh,0,1,1,0
+Cynthia,Sinnoh,0,0,0,2 if 3 Sinnoh
+Cynthia (Lodge),Sinnoh,-1,0,3,0
+Cynthia (SS),Sinnoh,0,-1,-1,2
+Cynthia (SSA),Sinnoh,-1,0,3,0
+Cynthia (SSR),Sinnoh,-2,0,-2,3
+Cyrus,Sinnoh,0,-1,-1,2
+Cyrus (SS),Sinnoh,0,2,0,0
+Darach,Sinnoh,-1,0,-1,2
+Dawn,Sinnoh,0,0,2,0
+Dawn (Pal),Sinnoh,0,2,0,0
+Dawn (SS),Sinnoh,0,0,2,0
+Fantina,Sinnoh,1,1,0,0
+Flint,Sinnoh,3,-1,0,0
+Gardenia,Sinnoh,1,0,1,0
+Looker,Sinnoh,2,0,0,0
+Lucas,Sinnoh,0,1 per Sinnoh,0,0
+Lucas,Sinnoh,0,2,0,0
+Lucian,Sinnoh,-1,3,0,0
+Marley,Sinnoh,0,0,2,0
+Maylene,Sinnoh,0,1,1,0
+Roark,Sinnoh,1,1,0,0
+Thorton,Sinnoh,-1,0,-1,2
+Volkner,Sinnoh,1,1,0,0
+Volkner (NY),Sinnoh,2,0,0,0
+Alder,Unova,3,-1,0,0
+Bianca,Unova,0,0,-2,2
+Brycen,Unova,1,1,0,0
+Burgh,Unova,1,0,1,0
+Burgh (Spring),Unova,0,0,2,0
+Caitlin,Unova,3,0,-1,0
+Caitlin (Fall),Unova,0,0,2,0
+Cheren,Unova,1,0,1,0
+Clay,Unova,0,1,1,0
+Colress,Unova,0,2,0,0
+Elesa,Unova,1,0,1,0
+Elesa (Classic),Unova,0,1,1,0
+Elesa (Lodge),Unova,0,1,1,0
+Elesa (SS),Unova,1,0,1,0
+Emmet,Unova,0,0,-2,2
+Emmet (SC),Unova,2,0,0,0
+Ghetsis,Unova,-1,0,-1,2
+Grimsley,Unova,0,3,-1,0
+Grimsley (SS),Unova,2,0,0,0
+Hilbert,Unova,0,0,1 per Unova,0
+Hilbert (Fall),Unova,2,0,0,0
+Hilbert (SS),Unova,0,2,0,0
+Hilda,Unova,2,0,0,0
+Hilda (SC),Unova,2,0,0,0
+Hilda (SS),Unova,2,0,0,0
+Hilda (Summer),Unova,0,0,2,0
+Hugh,Unova,0,0,-2,2
+Ingo,Unova,-2,0,0,2
+Ingo (SC),Unova,0,2,0,0
+Iris,Unova,1,0,1,0
+Iris (Champion),Unova,0,3,-1,0
+Iris (Fall),Unova,0,2,0,0
+Marlon,Unova,1,0,1,0
+Marshal,Unova,3,-1,0,0
+N,Unova,0,-1,-1,2
+N (Anni),Unova,0,0,-2,2
+N (Lodge),Unova,-2,0,0,2
+N (SS),Unova,-1,0,-1,2
+N (Summer),Unova,2,0,0,0
+Nate,Unova,4 if 3 Unova,0,0,0
+Rosa,Unova,0,0,2,0
+Rosa (Holiday),Unova,0,0,2,0
+Rosa (Lodge),Unova,0,2,0,0
+Rosa (SC),Unova,0,2,0,0
+Roxie,Unova,1,1,.0,0
+Shauntal,Unova,3,0,-1,0
+Skyla,Unova,1,0,1,0
+Skyla (Anni),Unova,0,2,0,0
+Skyla (Holiday),Unova,0,2,0,0

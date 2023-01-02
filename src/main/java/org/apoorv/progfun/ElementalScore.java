@@ -20,6 +20,10 @@ public class ElementalScore {
         reader = new Scanner(new File("/home/apoorv/Desktop/words.txt"));
         int highest = 0;
         String highestWord = "";
+        int maxList = 10;
+        Map<Integer, String> highList = new HashMap<>();
+        highList.put(0, "");
+        int lowest = 0;
         while (reader.hasNextLine()) {
             String word = reader.nextLine();
             ArrayList<Integer> scores = score(word);
@@ -39,6 +43,7 @@ public class ElementalScore {
 //            }
 //        }
         System.out.println("English word with highest elemental score: " + highestWord + ", with score: " + highest);
+        System.out.println(score("gazette"));
     }
 
     public static ArrayList<Integer> score(String str) {

@@ -11,7 +11,7 @@ public class KochFractal extends GraphicsProgram {
         double width = getWidth();
         double height = getHeight();
         add(pen, width/2, height/2);
-        drawKochFractal(pen, 3, 150, 0);
+        drawKochFractal(pen, 10, 150, 0);
     }
 
     private static void drawKochFractal(GPen gPen, int order, double length, double angle) {
