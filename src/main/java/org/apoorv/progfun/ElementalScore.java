@@ -43,7 +43,7 @@ public class ElementalScore {
 //            }
 //        }
         System.out.println("English word with highest elemental score: " + highestWord + ", with score: " + highest);
-        System.out.println(score("gazette"));
+        System.out.println(score("compsci"));
     }
 
     public static ArrayList<Integer> score(String str) {
