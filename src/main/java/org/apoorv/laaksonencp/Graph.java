@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.function.Consumer;
 
+// TODO: complete djikstra
 public class Graph {
     public Graph() {
         this.adjList = new HashMap<>();
@@ -144,7 +145,7 @@ public class Graph {
         deque.push(startNode);
         while (!deque.isEmpty()) {
             int node = deque.pop();
-            int min = adjList
+//            int min = adjList
         }
     }
 
